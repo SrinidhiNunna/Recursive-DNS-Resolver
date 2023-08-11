@@ -2,6 +2,7 @@
 Implementation of Recursive DNS Resolver in Python and Unbound. Here, I have implemented DNS recursive resolver in Linux with assortment of security and privacy enhancements against DNS cache poisoning attacks, censorship using Unbound 1.9.4, Python code which mimics the recursive resolver using dnspython library.
 
 Objective 1: understanding UDP, TCP,IP and DNS TRANSPORT PROTOCOLS based-queries and working of DNS
+
 Objective 2: Creating web framework(GUI) and Unbound configuration.
 Objective 3: Benefits to the endpoint users/client.
 Objective 4:Implemented a DNS recursive resolver in Unbound and Python with an assortment of security and privacy enhancements against DNS cache poisoning attacks
