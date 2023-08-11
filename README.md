@@ -14,14 +14,23 @@ Objective 4:Implemented a DNS recursive resolver in Unbound and Python with an a
 
 Problem Statement:
 ->Memorizing the IP address of all the required websites is not possible.
-->DNS is an integral part of the internet, invented almost 30 years ago. So, initially privacy and security aspects are not considered like the unencrypted nature of the DNS exchanges which can cause:
- Blocking of traffic, Spoofing IPs in phishing scams, DNS cache poisoning attacks, Spy on the user’s internet activity
+
+
+->DNS is an integral part of the internet, invented almost 30 years ago. So, initially privacy and security aspects are not considered like the unencrypted nature of the DNS exchanges which can cause: Blocking of traffic, Spoofing IPs in phishing scams, DNS cache poisoning attacks, Spy on the user’s internet activity
 
 Layers Involvement:
-Application Layer : DNS,
-Presentation Layer : DNSSEC cryptographic signature,
-Session Layer : Maintains connection between client and server until it find the required IP address,
-Transport Layer : Using DNS Transport protocols like DNS-over-UDP/53 ("Do53"), DNS-over-TCP/53 ("Do53/TCP") RFC1123, DNS-over-TLS ("DoT") RFC 7858, DNS Crypt, DNSSEC,
+Application Layer : DNS
+
+
+Presentation Layer : DNSSEC cryptographic signature
+
+
+Session Layer : Maintains connection between client and server until it find the required IP address
+
+
+Transport Layer : Using DNS Transport protocols like DNS-over-UDP/53 ("Do53"), DNS-over-TCP/53 ("Do53/TCP") RFC1123, DNS-over-TLS ("DoT") RFC 7858, DNS Crypt, DNSSEC
+
+
 Network Layer : IP address.
 
 Here You can view my code:
