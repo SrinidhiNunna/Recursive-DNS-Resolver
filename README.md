@@ -7,6 +7,7 @@ Objective 1: understanding UDP, TCP,IP and DNS TRANSPORT PROTOCOLS based-queries
 
 Objective 2: Creating web framework(GUI) and Unbound configuration.
 
+
 Objective 3: Benefits to the endpoint users/client.
 
 Objective 4:Implemented a DNS recursive resolver in Unbound and Python with an assortment of security and privacy enhancements against DNS cache poisoning attacks
